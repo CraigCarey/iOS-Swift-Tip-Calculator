@@ -13,6 +13,7 @@
 		CE7407F01B29C2A2003CA655 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7407EF1B29C2A2003CA655 /* Images.xcassets */; };
 		CE7407F31B29C2A2003CA655 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7407F11B29C2A2003CA655 /* LaunchScreen.xib */; };
 		CE7407FF1B29C2A2003CA655 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7407FE1B29C2A2003CA655 /* TipCalculatorTests.swift */; };
+		CE7408091B29C448003CA655 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7408081B29C448003CA655 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CE7407F81B29C2A2003CA655 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7407FD1B29C2A2003CA655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7407FE1B29C2A2003CA655 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		CE7408081B29C448003CA655 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		CE7407E51B29C2A2003CA655 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				CE7408081B29C448003CA655 /* TipCalculatorModel.swift */,
 				CE7407E81B29C2A2003CA655 /* AppDelegate.swift */,
 				CE7407EA1B29C2A2003CA655 /* ViewController.swift */,
 				CE7407EC1B29C2A2003CA655 /* Main.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7408091B29C448003CA655 /* TipCalculatorModel.swift in Sources */,
 				CE7407EB1B29C2A2003CA655 /* ViewController.swift in Sources */,
 				CE7407E91B29C2A2003CA655 /* AppDelegate.swift in Sources */,
 			);
